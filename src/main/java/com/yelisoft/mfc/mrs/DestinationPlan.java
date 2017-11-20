@@ -8,6 +8,8 @@ public class DestinationPlan {
     private String destinationFileName;
     private Map<String, String > pageNamesCompliance;
 
+    public DestinationPlan() {}
+
     public DestinationPlan(String authorityLevel, String destinationFileName, Map<String, String> pageNamesCompliance) {
         this.authorityLevel = authorityLevel;
         this.destinationFileName = destinationFileName;
